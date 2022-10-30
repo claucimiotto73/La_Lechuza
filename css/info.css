@@ -1,0 +1,28 @@
+#info {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.infr {
+    margin: 20px;
+}
+.infr img {
+    width: 180px;
+    height: 180ps;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+@media(min-width:480px){
+    .infr {
+   width: 40%;}
+}
+@media(min-width:1024px){
+    .infr {
+   width: auto;}
+}

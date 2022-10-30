@@ -1,0 +1,62 @@
+* {
+    padding: 2px;
+    margin: 0px;
+}
+body{
+    background-color: lightslategrey;
+}
+#header{
+    margin:auto ;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ul, ol {
+    list-style: none;
+}
+.confort li a{
+    background-color: lightpink;
+    color: beige;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.confort > li {
+    float: left;
+}
+.confort li a:hover {
+    background-color: #434343;
+
+}
+.confort li ul {
+    display: none;
+    position: relative;
+    min-width: 140px;
+}
+.confort li:hover > ul {
+display: flex;
+}
+.ofrecemos h1 {
+    font-size: 30px;
+    color: #fff;
+    width: auto;
+    height: auto;
+
+}
+.ofrecemos li {
+    font-size: 25px;
+    color: rgb(201, 228, 225);
+}
+.ofrecemos h5{
+    font-size: 20px ;
+    color: aquamarine;
+    
+}
+.footer{
+    font-size: 20px;
+}
+
+.title{
+    color: #fff;
+}
+ 
